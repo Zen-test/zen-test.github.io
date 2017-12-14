@@ -1,0 +1,172 @@
+.section0 {
+    margin-bottom: 0;
+    border-radius: 0.3rem;
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.section0 p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.logo {
+    padding: 1rem;
+    background-color: rgba(155, 155, 155, 0.5);
+    border: 1px solid #b5b5b5b;
+}
+
+.container img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.section0-text {
+    margin-top: 10%;
+}
+
+@media (min-width: 576px) {
+    .section0 {
+        padding-bottom: 5rem;
+    }
+}
+
+.section1 {
+    background-color: #222;
+    box-shadow: inset 0 0 5rem rgba(0,0,0,0.5);
+}
+
+.section1 .btn-slide {
+    color: #fff;
+}
+
+.section1 h1 {
+    color: #fff;
+}
+
+.img-phone {
+    height: 60vh;
+}
+
+.section2 h1 {
+    color: #000;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.section2 img {
+    height: 13vh;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.section2 {
+    border: 1px solid #e0e5e6;
+    background-color: #f6f8f8;
+}
+
+.section2 ul {
+    color: #000;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.section2 li {
+    margin-top: 0.7rem;
+    margin-left: -5%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.appear {
+    opacity: 1 !important;
+    margin-left: 0% !important;
+}
+
+.p-more-info {
+    color: #000;
+    font-size: 1.3rem;
+    margin-top: 10%;
+}
+
+.info-arrow {
+    height: 20vh;
+}
+
+.section3 {
+    color: #000;
+}
+
+.platforms-title img {
+    height: 25vh;
+    width: auto;
+}
+
+.platforms-list {
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    padding-bottom: 3%;
+    box-shadow: 2px 2px 5px 1px #ddd;
+}
+
+.platforms-list img {
+    opacity: 0;
+    margin-right: 25%;
+    transition: opacity .3s ease, margin-right .3s ease;
+}
+
+.platforms-list-appear img {
+    opacity: 1 !important;
+    margin-right: 0% !important;
+}
+
+.col.platform-img {
+    height: 15vh;
+}
+
+.platforms-text {
+    font-size: 2rem;
+}
+
+.platforms-try {
+    height: 40vh;
+}
+
+.download {
+    opacity: 0;
+    margin-top: 60%;
+    transition: .9s ease;
+}
+
+.download p {
+    font-size: 1.5rem;
+}
+
+.download-appear {
+    opacity: 1;
+    margin-top: 5%;
+}
+
+.btn-slide {
+    outline: none;
+}
+
+.btn-return {
+    margin-top: 3%;
+}
+
+.btn-return i {
+    transition: .3s ease;
+    color: #aaa;
+    transform: rotate(135deg);
+}
+
+.btn-return i:hover {
+    color: #444;
+    transform: rotate(45deg);
+}
+
+button {
+    cursor: pointer;
+}
